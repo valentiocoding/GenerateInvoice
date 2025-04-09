@@ -5,3 +5,4 @@ requests
 python-docx
 docx2pdf
 pywin32 ; platform_system == "Windows"
+pythoncom
