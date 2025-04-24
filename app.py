@@ -71,8 +71,8 @@ def prepare_invoice_context(df, discount_percent):
 
     return {
         'customer': customer,
-        'invoice_number': invoicenumber,
-        'tanggal': tanggal.strftime("%d-%m-%Y"),
+        'invoicenumber': invoicenumber,
+        'datenumber': tanggal.strftime("%d-%m-%Y"),
         'nopo': nopo,
         'address': address,
         'customertuju': customertuju,
